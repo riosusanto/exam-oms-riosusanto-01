@@ -1,0 +1,21 @@
+{
+    "name": "riosusanto/exam-oms-riosusanto-01",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "riosusanto",
+            "email": "rio.susanto@sirclo.com"
+        }
+    ],
+    "description": "Custom Module Exam OMS Rio Susanto 01",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "src/module-exam-product/registration.php"
+        ],
+        "psr-4": {
+            "Exam\\Product\\": "src/module-exam-product"
+        }
+    }
+}
