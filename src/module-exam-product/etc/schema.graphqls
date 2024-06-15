@@ -6,7 +6,7 @@ type Query {
         pageSize: Int = 5
         currentPage: Int = 1
     ): ProductList
-    @resolver(class: "\\Banggalokal\\Webstore\\Model\\Resolver\\GetProduct")
+    @resolver(class: "\\Exam\\Product\\Model\\Resolver\\GetProduct")
 }
 
 type ProductList {
